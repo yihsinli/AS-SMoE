@@ -95,6 +95,3 @@ python train_with_init_seperate_grid.py \
 * `--data_name` — Name of the dataset
 
 ---
-
-
-If you want, I can also **add badges** for Python version, license, or dependencies so your GitHub README looks even more professional. Do you want me to do that?
