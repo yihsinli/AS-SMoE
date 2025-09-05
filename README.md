@@ -1,40 +1,25 @@
-Here’s an updated, GitHub-ready `README.md` including **badges** and a **Requirements** section for clarity:
+## Adaptive Segmentation for Steered Mixture of Experts (SMoE)
 
-````markdown
-# Adaptive Segmentation for Steered Mixture of Experts (SMoE)  
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2020a%2B-red)](https://www.mathworks.com/products/matlab.html)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
-This repository implements adaptive segmentation for Steered Mixture of Experts (SMoE). The workflow contains four main steps: Segmentation, SMoE Training on individual segments, Global Exploration, and Global Training.  
+This repository implements adaptive segmentation for Steered Mixture of Experts (SMoE). The workflow contains four main steps: Segmentation, SMoE Training on individual segments, Global Exploration, and Global Training.
 
 ---
 
-## Table of Contents  
+## Table of Contents
 
-- [Requirements](#requirements)  
-- [Step 1: Segmentation](#step-1-segmentation)  
-- [Step 2: Train SMoE on Individual Segments](#step-2-train-smoe-on-individual-segments)  
-- [Step 3: Global Exploration](#step-3-global-exploration)  
-- [Step 4: Global Training](#step-4-global-training)  
-
----
-
-## Requirements  
-
-- Python 3.8 or higher  
-- MATLAB R2020a or higher  
-- Required Python packages: `numpy`, `scipy`, `matplotlib`, `torch` (or specify your SMoE dependencies)  
+* [Step 1: Segmentation](#step-1-segmentation)
+* [Step 2: Train SMoE on Individual Segments](#step-2-train-smoe-on-individual-segments)
+* [Step 3: Global Exploration](#step-3-global-exploration)
+* [Step 4: Global Training](#step-4-global-training)
 
 ---
 
-## Step 1: Segmentation  
+## Step 1: Segmentation
 
-Run the MATLAB code:  
+Run the MATLAB code:
+
 ```matlab
 test.m
-````
+```
 
 in the `MDBSCAN-old` folder.
 
@@ -111,15 +96,5 @@ python train_with_init_seperate_grid.py \
 
 ---
 
-### How to Use
 
-1. Follow the steps in order: Segmentation → Train SMoE → Global Exploration → Global Training.
-2. Ensure all paths and parameter names match your dataset setup.
-3. Use the aggregated parameters from Step 3 for global training in Step 4.
-
-```
-
----
-
-If you want, I can **also add a “Quick Start” section** with minimal commands so users can run everything quickly without reading all the details. This makes the README even more GitHub-friendly. Do you want me to do that?
-```
+If you want, I can also **add badges** for Python version, license, or dependencies so your GitHub README looks even more professional. Do you want me to do that?
